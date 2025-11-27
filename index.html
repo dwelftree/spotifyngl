@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Bakery Class Links</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Quicksand:wght@400;600&display=swap');
+
+    body {
+        margin: 0;
+        background: linear-gradient(135deg, #fff4e7, #ffe9d5);
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Quicksand", sans-serif;
+    }
+
+    .box {
+        background: #ffffffd5;
+        backdrop-filter: blur(8px);
+        padding: 32px;
+        width: 330px;
+        border-radius: 24px;
+        text-align: center;
+        box-shadow: 0 8px 20px rgba(155, 115, 80, 0.18);
+        border: 2px solid #f2d4b2;
+        animation: fade .7s ease;
+    }
+
+    @keyframes fade {
+        from {opacity: 0; transform: translateY(12px);}
+        to {opacity: 1; transform: translateY(0);}
+    }
+
+    .emoji {
+        font-size: 50px;
+        margin-bottom: 12px;
+    }
+
+    h2 {
+        margin-bottom: 20px;
+        font-weight: 600;
+        color: #b07b4a;
+        letter-spacing: 1px;
+    }
+
+    .btn {
+        display: block;
+        margin: 12px 0;
+        padding: 12px;
+        border-radius: 14px;
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: 600;
+        color: #5a3c22;
+        background: #ffe8c6;
+        border: 2px dashed #e1b98c;
+        transition: .25s;
+    }
+
+    .btn:hover {
+        background: #ffddb0;
+        border-color: #d7a375;
+        transform: translateY(-2px);
+    }
+
+    .footer {
+        margin-top: 18px;
+        font-size: 12px;
+        color: #a08367;
+    }
+</style>
+</head>
+<body>
+
+<div class="box">
+
+    <!-- Emoji sebagai "logo" bakery -->
+    <div class="emoji">🥐</div>
+
+    <h2>Bakery Links</h2>
+
+    <!-- Ganti link di sini -->
+    <a class="btn" href="https://open.spotify.com/playlist/11Zhw0NgLG3Y3KTqBIcM1A?si=6d05d64b5fad450d" target="_blank">
+        🍞 Spotify Playlist
+    </a>
+
+    <a class="btn" href="https://ngl.link/dwelftree?fbclid=PAb21jcAOVCI9leHRuA2FlbQIxMQBzcnRjBmFwcF9pZA81NjcwNjczNDMzNTI0MjcAAadi-PK5kPtHuv3W56EUfeXSqMnLPjLJUluWHG2GEZoKkNbdMLpT1_7aDgr5Bg_aem_7yT762z2HNexiKaQ-koMZg" target="_blank">
+        🧁 NGL Link
+    </a>
+
+    <div class="footer">fresh & warm</div>
+</div>
+
+</body>
+</html>
